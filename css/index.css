@@ -1,0 +1,145 @@
+.hero-section{
+    background-image: url(../media/Upn4tXXWAQQRdGhuBFXZDa.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hero-heading{
+    font-size: 72px;
+    color: #424242;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.hero-sub-heading{
+    font-size: 54px;
+    color: #424242;
+    font-weight:bold;
+    margin-left: 100px;
+}
+.hero-section-button{
+    background-color:  #424242; 
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 103px;
+    margin-top: 150px;
+}
+.book-date-home-page{
+    text-decoration: none;
+    color:#fdffecc2;
+}
+/* hero section ending  */
+.about-us-section-heading{
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #424242;
+}
+/* 10 pixel size been used above and below heading  */
+.about-us-section-big-div{
+    display: flex;
+    height: 90vh;
+}
+/* css to give size to div  */
+.about-us-section-img-container{
+    width: 50%;
+    height: 90vh;
+    overflow: hidden;
+}
+/* Css to fit photo in the div  */
+.business-man{
+    width: 80%;
+    height: 90vh;
+    object-fit: contain;
+    margin-left: 50px;
+
+}
+.about-us-section-paragraph{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.about-us-section-paragraph>p{
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    padding-top: -20px;
+    color: #424242;
+    margin-right: 20px;
+}
+.about-us-section-view-more-button{
+    background-color:  #424242; 
+    border: none;
+    color:#fdffecc2;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+/* about us section finished for homepage  */
+/* our best porject section started  */
+.our-best-projects-section{
+    height: 100vh;
+    
+}
+.our-best-projects-section-heading{
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #424242;
+}
+.our-best-projects-section-big-div{
+    height: 90vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-between;
+   
+
+   
+}
+.our-best-projects-section-img1{
+    height: 50vh;
+    background-color: aqua;
+    width: 33.33%;
+}
+
+.our-best-projects-section-img{
+    width: 33%;
+    height: 50vh;
+}
+
+.our-best-projects-section-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
