@@ -1,5 +1,6 @@
 .hero-section{
     background-image: url(../media/Upn4tXXWAQQRdGhuBFXZDa.jpg); 
+    /* opacity: 0.5; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +137,31 @@
     width: 100%;
     height: 100%;
 }
-
+.footer_interior_design{
+    /* width: max-content; */
+    max-width: fit-content;
+    /* margin-top: 2rem; */
+    background: #000;
+}
+.footer_content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+    gap: 448px;
+}
+p{
+    font-size: large;
+    gap:  5em;
+    align-items: center;
+    align-content: center;
+    /* line-gap-override: 5rem;
+     */
+     font-family: 'Poppins', sans-serif;
+    margin: 10px 10px;
+}
 
 
 

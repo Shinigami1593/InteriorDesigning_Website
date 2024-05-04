@@ -3,6 +3,9 @@
 
     height: 20vh;
 }
+body{
+    background: #E3E3E3;
+}
 .about_container{
     
     display: flex;
@@ -20,7 +23,8 @@
     align-items: center;
     align-content: center;
     width: 85%;
-    margin: auto
+    margin: auto;
+    background: #E3E3E3;
 	
 }
 .about_info_1{
@@ -28,7 +32,7 @@
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: left;
-  background-color: #fff;
+  background-color: #E3E3E3;
 }
 .content_1{
     padding: 2vh 6vw;
@@ -61,3 +65,19 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
   }
+
+.footer_interior_design{
+    /* width: max-content; */
+    max-width: fit-content;
+    /* margin-top: 2rem; */
+    background: #000;
+}
+.footer_content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+    gap: 448px;
+}
