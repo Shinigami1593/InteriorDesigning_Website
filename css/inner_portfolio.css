@@ -25,6 +25,13 @@ p{
 	align-content: stretch;
     gap: 20px;
 }
+@media only screen and (max-width: 800px){
+    /* class name from above and only change flex-wrap attribute for now*/
+    .inner_portfolio{
+        flex-wrap: wrap;
+    }
+}
+
 .images_inner_portfolio{
     gap: 20px;
     margin-left: 50px;
@@ -44,4 +51,10 @@ p{
 	align-items: center;
 	align-content: stretch;
     gap: 448px;
+}
+@media only screen and (max-width: 800px){
+    .footer_content{
+        flex-wrap: wrap;
+        align-content: center;
+    }
 }
