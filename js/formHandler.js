@@ -22,6 +22,8 @@ function setButtonclickListener() {
     }
     if (input2 === null || input2 === ""){
         alert('Please provide a valid email address')
+    } else {
+        
     }
     if (input3 === null || input3 === "") {
         alert("Please provide a valid contact number")
