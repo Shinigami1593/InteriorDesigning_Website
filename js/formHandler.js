@@ -23,7 +23,11 @@ function setButtonclickListener() {
     if (input2 === null || input2 === ""){
         alert('Please provide a valid email address')
     } else {
-        
+        for (i = 0; i<input2.length; i++){
+            if (input2[i] === '@'){
+                
+            }
+        }
     }
     if (input3 === null || input3 === "") {
         alert("Please provide a valid contact number")
